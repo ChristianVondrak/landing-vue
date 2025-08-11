@@ -13,9 +13,9 @@ onMounted(() => {
 
   vantaEffect = (window as any).VANTA.GLOBE({
     el: el.value,
-    backgroundColor: 0x23153c,
-    color:           0xff3f81,
-    color2:          0xffffff,
+    backgroundColor: 0x0b1220, // deep navy
+    color:           0x22d3ee, // cyan
+    color2:          0xa78bfa, // soft purple
     size:            1.4,
     mouseControls:   true,
     touchControls:   true,
