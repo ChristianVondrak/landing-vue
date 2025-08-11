@@ -7,7 +7,7 @@
       <ContactSection />
     </section>
   </DefaultLayout>
-  <a class="chip" href="#contact" title="Start a project">Let’s talk</a>
+  <a class="chip" href="#contact" title="Iniciar un proyecto">Hablemos</a>
   
 </template>
 
