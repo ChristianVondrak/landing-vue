@@ -6,20 +6,20 @@
     <BaseContainer>
       <div class="hero-card">
         <h1>
-          Web apps that turn <span class="accent">ideas → product</span>
+          Transformo tus ideas en <span class="accent">sitios web que convierten</span>
         </h1>
         <p class="sub">
-          I build fast, reliable software with <strong>Laravel + Vue</strong>.
-          From MVP to production: dashboards, APIs, payments & maps.
+          Landing pages, tiendas online y páginas informativas rápidas y modernas. Diseño responsive,
+          buena velocidad y SEO básico para que te encuentren y te contacten.
         </p>
         <div class="cta">
-          <BaseButton href="#contact">Start a project</BaseButton>
-          <BaseButton href="#work" :ghost="true">See work</BaseButton>
+          <BaseButton href="#contact">Quiero mi sitio</BaseButton>
+          <BaseButton href="#work" :ghost="true">Ver trabajos</BaseButton>
         </div>
         <ul class="trust">
-          <li>⚡ 5+ years building for real businesses</li>
-          <li>✅ Clean code, on-time delivery</li>
-          <li>🌍 Remote friendly</li>
+          <li>🚀 Entrega rápida</li>
+          <li>📱 Diseño responsive</li>
+          <li>🔎 SEO básico y analítica</li>
         </ul>
       </div>
     </BaseContainer>

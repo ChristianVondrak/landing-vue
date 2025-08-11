@@ -1,19 +1,19 @@
 <template>
   <section id="services" class="section">
     <BaseContainer>
-      <h2 class="section-title">What I do</h2>
+      <h2 class="section-title">Servicios</h2>
       <div class="cards">
         <BaseCard>
-          <h3>Custom Web Apps</h3>
-          <p>Laravel + Vue SPAs, role-based dashboards, REST APIs, queues, notifications.</p>
+          <h3>Landing pages que convierten</h3>
+          <p>Diseñadas para captar contactos y ventas. Textos claros, diseño atractivo y carga rápida.</p>
         </BaseCard>
         <BaseCard>
-          <h3>Reports & Automation</h3>
-          <p>PDF/Excel exports, background jobs, third-party integrations (WorkSnaps, Stripe, etc.).</p>
+          <h3>Tiendas online (ecommerce)</h3>
+          <p>Catálogo, carrito y pagos. Integración con medios de pago locales y envío.</p>
         </BaseCard>
         <BaseCard>
-          <h3>Geo & Maps</h3>
-          <p>Google Maps, GeoJSON boundaries, spatial queries, blazing-fast search.</p>
+          <h3>Páginas informativas</h3>
+          <p>Webs corporativas, portfolios y micrositios responsive para presentar tu negocio con confianza.</p>
         </BaseCard>
       </div>
     </BaseContainer>

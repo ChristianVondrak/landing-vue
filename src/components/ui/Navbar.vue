@@ -3,9 +3,9 @@
     <BaseContainer>
       <a class="brand" href="#hero">Vondrak Studio</a>
       <nav class="links">
-        <a href="#services">Services</a>
-        <a href="#work">Work</a>
-        <a href="#contact" class="btn btn--sm">Let’s talk</a>
+        <a href="#services">Servicios</a>
+        <a href="#work">Proyectos</a>
+        <a href="#contact" class="btn btn--sm">Hablemos</a>
       </nav>
     </BaseContainer>
   </header>

@@ -1,13 +1,13 @@
 <template>
   <section id="work" class="section">
     <BaseContainer>
-      <h2 class="section-title">Selected work</h2>
+      <h2 class="section-title">Proyectos destacados</h2>
       <div class="grid">
-        <a class="work" href="#"><span>HR Dashboard</span></a>
-        <a class="work" href="#"><span>Reports Module</span></a>
-        <a class="work" href="#"><span>Alerts & Notifications</span></a>
+        <a class="work" href="#"><span>Panel RR. HH.</span></a>
+        <a class="work" href="#"><span>Módulo de Reportes</span></a>
+        <a class="work" href="#"><span>Alertas y Notificaciones</span></a>
       </div>
-      <p class="muted">Want a live demo? <a href="#contact">Ping me</a>.</p>
+      <p class="muted">¿Quieres una demo en vivo? <a href="#contact">Escríbeme</a>.</p>
     </BaseContainer>
   </section>
 </template>

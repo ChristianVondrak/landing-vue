@@ -2,12 +2,12 @@
   <section id="contact" class="section">
     <BaseContainer>
       <div class="contact">
-        <h2 class="section-title">Tell me about your idea</h2>
+        <h2 class="section-title">Cuéntame sobre tu idea</h2>
         <form class="contact-form" @submit.prevent>
-          <input type="text" placeholder="Your name" required />
-          <input type="email" placeholder="Email" required />
-          <textarea rows="4" placeholder="What do you need?"></textarea>
-          <button class="btn" type="submit">Request a quote</button>
+          <input type="text" placeholder="Tu nombre" required />
+          <input type="email" placeholder="Correo electrónico" required />
+          <textarea rows="4" placeholder="¿Qué necesitas?"></textarea>
+          <button class="btn" type="submit">Solicitar presupuesto</button>
         </form>
         <div class="alt">
           <a href="mailto:hello@vondrak.dev">hello@vondrak.dev</a>
