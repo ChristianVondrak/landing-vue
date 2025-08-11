@@ -1,8 +1,8 @@
 <template>
-  <HomePage />
+  <div class="container"><slot /></div>
 </template>
 
 <script setup lang="ts">
-import HomePage from '@/pages/HomePage.vue'
 </script>
+
 

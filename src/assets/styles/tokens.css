@@ -1,0 +1,12 @@
+:root{
+  /* Design tokens */
+  --glass: rgba(10,10,20,.45);
+  --stroke: rgba(255,255,255,.12);
+  --white: #fff;
+  --muted: #c8c8d8;
+  --accent: #ff4dac;
+  --radius: 18px;
+  --page-bg: #0b0b18;
+}
+
+
