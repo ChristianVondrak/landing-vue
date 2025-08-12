@@ -1,35 +1,96 @@
 <template>
-  <section id="services" class="section">
+  <section id="services" class="section section--pricing">
     <BaseContainer>
-      <h2 class="section-title">Servicios</h2>
-      <div class="cards">
-        <BaseCard>
-          <h3>Landing pages que convierten</h3>
-          <p>Diseñadas para captar contactos y ventas. Textos claros, diseño atractivo y carga rápida.</p>
-        </BaseCard>
-        <BaseCard>
-          <h3>Tiendas online (ecommerce)</h3>
-          <p>Catálogo, carrito y pagos. Integración con medios de pago locales y envío.</p>
-        </BaseCard>
-        <BaseCard>
-          <h3>Páginas informativas</h3>
-          <p>Webs corporativas, portfolios y micrositios responsive para presentar tu negocio con confianza.</p>
-        </BaseCard>
+      <h2 class="section-title title-center">Planes y precios</h2>
+      <div class="pricing">
+        <PricingCard
+          :title-before="'Página '"
+          title-emphasis="Informativa"
+          subtitle="Sobre tu negocio o servicio"
+          price="<strong>$399</strong> USD"
+          :features="[
+            'Diseño tradicional y estático',
+            'Diseño responsive',
+            'Optimización de carga',
+            'Integración con redes sociales',
+            'Formulario de contacto',
+            'Hosting y dominio',
+            '30 días de garantía y mantención'
+          ]"
+          cta-text="Contratar ahora"
+          cta-href="#contact"
+          note="El precio incluye el primer año de hosting y dominio"
+        />
+
+        <PricingCard
+          :highlight="true"
+          badge="Más contratado"
+          title="Landing Page"
+          subtitle="Web similar a esta"
+          price="<strong>$799</strong> USD"
+          :features="[
+            'Diseño único',
+            'Animaciones',
+            'Diseño responsive',
+            'Hasta 4 secciones adicionales',
+            'Optimización de carga',
+            'Integración con redes sociales',
+            'Formulario de contacto',
+            'Hosting y dominio',
+            '60 días de garantía y mantención'
+          ]"
+          cta-text="Contratar ahora"
+          cta-href="#contact"
+          note="El precio incluye el primer año de hosting y dominio"
+        />
+
+        <PricingCard
+          title="Tienda Online"
+          subtitle="También llamado e‑commerce"
+          price="<strong>$1.299</strong> USD"
+          :features="[
+            'Diseño personalizado',
+            'Diseño responsive',
+            'Ingreso de 50 productos',
+            'Optimización de SEO para producto',
+            'Optimización de carga',
+            'Integración con redes sociales',
+            'Formulario de contacto',
+            'Hosting y dominio',
+            '90 días de garantía y mantención'
+          ]"
+          cta-text="Contratar ahora"
+          cta-href="#contact"
+          note="El precio incluye el primer año de hosting y dominio"
+        />
       </div>
     </BaseContainer>
   </section>
+  
 </template>
 
 <script setup lang="ts">
 import BaseContainer from '@/components/base/BaseContainer.vue'
-import BaseCard from '@/components/base/BaseCard.vue'
+import PricingCard from '@/components/ui/PricingCard.vue'
 </script>
 
 <style scoped>
-.cards{ display:grid; grid-template-columns: repeat(3, 1fr); gap:16px }
-.cards h3{ margin:0 0 8px; font-size:1.15rem }
-.cards p{ margin:0; color:var(--muted) }
-@media (max-width: 900px){ .cards{ grid-template-columns: 1fr } }
+.section--pricing{
+  min-height: 100vh;
+  display: grid; align-items: center;
+}
+.title-center{ text-align:center; margin-bottom: 22px }
+
+.pricing{
+  display:grid; grid-template-columns: repeat(3, 1fr); gap:20px;
+}
+
+
+
+@media (max-width: 1000px){
+  .pricing{ grid-template-columns: 1fr; }
+  .plan--highlight{ transform:none }
+}
 </style>
 
 
